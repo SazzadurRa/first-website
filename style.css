@@ -173,4 +173,76 @@ section {
 
 #skills{
     padding-top: 5%;
+    background-color: #e5e5e5;
+}
+#skills .container{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+label{
+    font-size: 20px;
+}
+.progress{
+    height: 30px !important;
+    box-shadow: 2px 4px 5px gray, -2px -2px 5px white;
+}
+.progress:hover{
+    box-shadow: 2px 4px 5px white, -2px -2px 5px gray;
+}
+
+/*projects section*/
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    background: linear-gradient(75deg,skyblue,violet);
+}
+.carousel{
+    width: 80%;
+    height: 80vh;
+    box-shadow: 10px 20px 10px rgba(0,0,0,.4);
+}
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+
+@media screen and (max-width:576px){
+    .carousel{
+        width: 90%;
+        height: 50vh;
+        box-shadow: 10px 20px 10px rgba(0,0,0,.4);
+    }
+    iframe{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+/*pricing section*/
+
+
+#pricing{
+    padding-top: 5%;
+}
+.card{
+    margin-top: 15%;  
+}
+.card:hover{
+    box-shadow: 8px 8px 15px rgba(0,0,0,.4);
+    transition: .2s;
+}
+
+/*contact section*/
+
+#contact{
+    padding-top: 7%;
+    background-color: antiquewhite;
+    padding-left: 3%;
+    
+}
+#contact iframe{
+    box-shadow: 15px 20px 10px rgba(0,0,0,.4);
 }
